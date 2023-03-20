@@ -1,0 +1,32 @@
+{
+  "name": "learn-rollup",
+  "version": "0.0.0",
+  "description": "This is an example project to accompany a tutorial on using Rollup.",
+  "main": "build/js/main.min.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jlengstorf/learn-rollup.git"
+  },
+  "author": "Jason Lengstorf <jason@lengstorf.com> (@jlengstorf)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlengstorf/learn-rollup/issues"
+  },
+  "homepage": "https://github.com/jlengstorf/learn-rollup#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.19.1"
+  },
+  "dependencies": {
+    "prosemirror-example-setup": "^1.2.1",
+    "prosemirror-model": "^1.19.0",
+    "prosemirror-schema-basic": "^1.2.1",
+    "prosemirror-schema-list": "^1.2.2",
+    "prosemirror-state": "^1.4.2",
+    "prosemirror-view": "^1.30.2"
+  }
+}
